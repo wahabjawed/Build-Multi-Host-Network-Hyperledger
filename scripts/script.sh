@@ -180,25 +180,21 @@ installChaincode 0
 echo "Install chaincode on org2/peer2..."
 installChaincode 1
 
-#Instantiate chaincode on Peer2/Org2
-echo "Instantiating chaincode on org1/peer0..."
-instantiateChaincode 0
+# #Instantiate chaincode on Peer2/Org2
+# echo "Instantiating chaincode on org1/peer0..."
+# instantiateChaincode 0
 
-#Instantiate chaincode on Peer1/Org1
-echo "Instantiating chaincode on org1/peer1..."
-instantiateChaincode 1
+# #Query on chaincode on Peer0/Org1
+# echo "Querying chaincode on org1/peer0..."
+# chaincodeQuery 0 100
 
-#Query on chaincode on Peer0/Org1
-echo "Querying chaincode on org1/peer0..."
-chaincodeQuery 0 100
+# #Invoke on chaincode on Peer0/Org1
+# echo "Sending invoke transaction on org1/peer0..."
+# chaincodeInvoke 0
 
-#Invoke on chaincode on Peer0/Org1
-echo "Sending invoke transaction on org1/peer0..."
-chaincodeInvoke 0
-
-#Query on chaincode on Peer1/Org1, check if the result is 90
-echo "Querying chaincode on org2/peer3..."
-chaincodeQuery 1 90
+# #Query on chaincode on Peer1/Org1, check if the result is 90
+# echo "Querying chaincode on org2/peer3..."
+# chaincodeQuery 1 90
 
 echo
 echo "========= All GOOD, BMHN execution completed =========== "
