@@ -1,0 +1,8 @@
+panic: Fatal error when initializing core config : Error when reading core config file: Unsupported Config Type ""
+
+
+goroutine 1 [running]:
+panic(0xbb8480, 0xc42020f330)
+	/opt/go/go1.7.5.linux.amd64/src/runtime/panic.go:500 +0x1a1
+main.main()
+	/w/workspace/fabric-binaries-x86_64/gopath/src/github.com/hyperledger/fabric/peer/main.go:94 +0x852
